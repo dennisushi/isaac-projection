@@ -4,7 +4,7 @@ Sample util functions for projection of a pinhole camera pixel UV to world frame
 
 Specific to IsaacSim since (i) the depth input is inversed, i.e. `(1/depth)`, (ii) it uses the ViewProjection matrix, (iii) the camera axes are permuted and (iv) the pinhole camera is using a frensel model with near-far limits.
 
-[TODO] Add demo files.
+To run demo, simply `python3 demo.py`
 
 The following images show the 3D points projected into 2D (left), then projected to 3D and back to 2D (rigt).
 
